@@ -1,17 +1,12 @@
 class Subject:
-    def __init__(self):
-        self.observers = []
-
     # Both of the following two methods take an
     # observer as an argument; that is, the observer
     # to be registered or removed.
-    def registerObserver(self, observer):
+    def registerObserver():
         self.observers.append(observer)
 
-    def removeObserver(self, observer):
-        for i in range(self.observers):
-            if self.observers[i] == observer:
-                self.observers.pop(i)
+    def removeObserver():
+        pass
 
     # This method is called to notify all observers
     # when the Subject's state (measurements) has changed.
