@@ -10,7 +10,7 @@ class Subject:
 
     # This method is called to notify all observers
     # when the Subject's state (measurements) has changed.
-    def notifyObservers(self):
+    def notifyObservers():
         pass
 
 # The observer class is implemented by all observers,
